@@ -15,10 +15,10 @@ driver.implicitly_wait(15)
 def login():
     username = driver.find_element_by_name("username")
     username.clear()
-    username.send_keys("povimo6760@lywenw.com")
+    username.send_keys("")   #your email address here
     password = driver.find_element_by_name("password")
     password.clear()
-    password.send_keys("*1HhdDzh%A" + Keys.ENTER)
+    password.send_keys("" + Keys.ENTER)   #your password here
 
 
 def getAccess():                   # "activer les notifications"
